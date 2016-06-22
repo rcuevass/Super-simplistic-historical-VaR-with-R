@@ -97,3 +97,9 @@ dev.off()
 hist_GSPD<-hist(df.GSPC$DailyReturn,plot=TRUE)
 ls(hist_GSPD)
 hist_GSPD$density
+
+
+# Important references
+# http://www.r-bloggers.com/historical-value-at-risk-versus-historical-expected-shortfall/
+# http://www.r-tutor.com/elementary-statistics/numerical-measures/percentile
+# http://www.r-bloggers.com/basics-of-histograms/
